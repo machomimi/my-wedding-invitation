@@ -47,8 +47,8 @@ const Location = () => {
   const executeScript = () => {
     const scriptTag = document.createElement("script");
     const inlineScript = document.createTextNode(`new daum.roughmap.Lander({
-    "timestamp" : "1652464367301",
-    "key" : "2a8fe",
+    "timestamp" : "1751196442677",
+    "key" : "4e6xzwmjo97",
     "mapWidth" : "640",
     "mapHeight" : "360"
   }).render();`);
@@ -103,23 +103,23 @@ const Location = () => {
         className="root_daum_roughmap root_daum_roughmap_landing"
       ></Map>
       <Content>
-        대구 수성구 두산동 888-2번지
+        경기 의왕시 성고개로 138 1~5층(네비게이션 "그라운드 333"으로 검색)
         <br />
-        호텔수성 수성스퀘어 3층 피오니홀
+        그라운드 333
         <br />
         <br />
         <Title>버스 이용시</Title>
         <br />
         <br />
-        410-1, 401 호텔수성 앞 하차
+        인덕원역 마을버스 12번 [인덕원 IT밸리] 하차 도보 3분
         <br />
-        수성1-1, 수성3-1, 814 TBC방송국 앞 하차
-        <br />
-        <br />
-        <Title>지하철 이용시</Title>
+        인덕원역 마을버스 13번 [숲속마을 3,5단지] 하차 도보 10분
         <br />
         <br />
-        3호선 수성못역 하차 (도보 10분)
+        <Title>자가용</Title>
+        <br />
+        <br />
+        제 2경인 고속도로 북의왕 TG에서 의왕(포일) 방향으로 1분 미만 거리(400미터)
       </Content>
     </Wrapper>
   );
